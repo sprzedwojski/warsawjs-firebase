@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>WarsawJS Slides: Template</title>
+    <title>Firebase: one-stop shop for your web app</title>
 
     <meta charset="utf-8"/>
     <meta http-equiv="x-ua-compatible" content="ie=edge"/>
@@ -16,10 +16,22 @@
     <!-- Prism.js -->
     <link rel="stylesheet" href="vendors/prism/prism.css"/>
     <link rel="stylesheet" href="modules/custom-prism.css"/>
+
+    <style>
+        .left-padding {
+            padding-left: 80px !important;
+        }
+        .big-font {
+            font-size: 40px;
+        }
+        .center {
+            text-align: center;
+        }
+    </style>
 </head>
 <body class="shower list">
     <header class="caption">
-        <h1>WarsawJS Slides: Template</h1>
+        <h1>Firebase, czyli backend szybko, łatwo i przyjemnie</h1>
         <p>We talk about JavaScript. Each month in Warsaw, Poland.</p>
     </header>
 
@@ -30,32 +42,98 @@
         </div>
         <div class="details">
             <!-- 1. Avatar -->
-            <img src="pictures/my-avatar.jpg" alt="Speaker"/>
+            <img src="pictures/profile_me.jpeg" alt="Speaker" style="width: 200px; height: 200px;"/>
+            <img src="pictures/polidea.png" alt="Polidea" style="width: 70px; height: 70px;"/>
 
             <!-- 2. Speaker -->
-            <h2>Speaker name</h2>
+            <h2>Szymon Przedwojski</h2>
 
             <!-- 3. Presentation title -->
-            <h2><strong>"WarsawJS Slides: Template" [PL/EN]</strong></h2>
+            <h2><strong>"Firebase, czyli backend szybko, łatwo <br/>i przyjemnie" [PL]</strong></h2>
 
             <!-- 4. Presentation date -->
-            <h2>XXXX-XX-XX</h2>
+            <h2>2018-07-11</h2>
 
             <!-- 5. Contact the speaker -->
-            <h2><a href="http://twitter.com/speaker">@speaker</a></h2>
+            <h2><a href="http://twitter.com/sprzedwojski">@sprzedwojski</a></h2>
+        </div>
+    </section>
+
+    <section class="slide compact">
+        <div class="center">
+            <h2>Co musi mieć szanująca się aplikacja webowa?</h2>
+        </div>
+        <div class="next">
+            <ul class="left-padding big-font">
+                <li>rejestracja / logowanie</li>
+                <li>baza danych</li>
+                <li>backend -> logika</li>
+                <li>hosting</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="slide compact">
+        <div class="center">
+            <img src="pictures/firebase-logo.png" alt="Firebase" style="height: 100px;"/>
+        </div>
+        <ul class="left-padding big-font">
+            <li class="next">BaaS - Backend-as-a-Service</li>
+            <li class="next">platforma do tworzenia aplikacji</li>
+        </ul>
+    </section>
+
+    <!--<section class="slide compact">
+        <div class="title">
+            <h2>Firebase na ratunek</h2>
+        </div>
+        <div>
+            <ul class="left-padding" style="font-size: 30px;">
+                <li>rejestracja / logowanie => Firebase Authentication</li>
+                <li>baza danych => Cloud Firestore</li>
+                <li>backend -> logika => Cloud Functions</li>
+                <li>hosting => Firebase Hosting</li>
+            </ul>
+        </div>
+    </section>-->
+
+    <section class="slide compact">
+        <div class="center">
+            <img src="pictures/firebase-logo.png" alt="Firebase" style="height: 100px;"/>
+        </div>
+        <div class="center">
+            <img class="next" style="width: 220px;" src="pictures/fb-services-1.png"/>
+            <img class="next" style="width: 220px;" src="pictures/fb-services-2.png"/>
+            <img class="next" style="width: 220px;" src="pictures/fb-services-3.png"/>
+            <img class="next" style="width: 220px;" src="pictures/fb-services-4.png"/>
         </div>
     </section>
 
     <section class="slide">
-        <div class="next">
-        <ul class="place" style="font-size: 50px">
-            <li>rejestracja / logowanie</li>
-            <li>baza danych</li>
-            <li>backend -> logika</li>
-            <li>hosting</li>
-        </ul>
+        <div class="place">
+            <img src="pictures/firebase-auth.svg" alt="Firebase Auth"/>
         </div>
     </section>
+
+    <section class="slide">
+        <div class="place">
+            <img src="pictures/firestore.svg" alt="Cloud Firestore"/>
+        </div>
+    </section>
+
+    <section class="slide">
+        <div class="place">
+            <img src="pictures/cloud-functions.svg" alt="Cloud Functions"/>
+        </div>
+    </section>
+
+    <section class="slide">
+        <div class="place">
+            <img src="pictures/firebase-hosting.svg" alt="Firebase Hosting"/>
+        </div>
+    </section>
+
+    <!-- END -->
 
     <section class="slide compact">
         <h2>TODO: Please update slides:</h2>
