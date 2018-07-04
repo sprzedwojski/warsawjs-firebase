@@ -1,4 +1,4 @@
-# WarsawJS Slides: Template
+# Firebase, czyli backend szybko, łatwo i przyjemnie
 
 <img src="./vendors/shower-warsawjs/images/logo.svg" width="400" />
 
